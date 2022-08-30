@@ -12,20 +12,32 @@
     <title>Education - List of Meetings</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="app/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="app/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="app/assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="app/assets/css/owl.css">
+    <link rel="stylesheet" href="app/assets/css/lightbox.css">
 
-    <script src="http://localhost:8080/dist/accessangel/accessangel.bundle.js"></script>
+    <script src="https://hammerhead-app-ccpio.ondigitalocean.app/dist/accessangel/accessangel.bundle.js"></script>
     <link
       rel="stylesheet"
-      href="http://localhost:8080/dist/accessangel/app.css"
+      href="https://hammerhead-app-ccpio.ondigitalocean.app/dist/accessangel/app.css"
     />
+
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', () => {
+        console.log(window.AccessAngel);
+        const ace = new AccessAngel({
+          buttonFloatPosition: 'bottom-left',
+          buttonFloatOffset: 60,
+          IDToken: `c27700b0-4ee1-4013-a082-001a1d0bc82f`,
+        });
+      });
+      //}
+    </script>
 <!--
 
 TemplateMo 569 Edu Meeting
